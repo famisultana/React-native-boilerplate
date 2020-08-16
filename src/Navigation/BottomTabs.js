@@ -1,6 +1,7 @@
 import React from 'react';
 import { createBottomTabNavigator } from '@react-navigation/bottom-tabs';
 import {colors} from '../utils/Theme'
+import Icon from 'react-native-vector-icons/AntDesign'
 
 import Home from '../Screens/App/Home';
 import Profile from '../Screens/App/Profile';
@@ -10,30 +11,29 @@ const Tab = createBottomTabNavigator();
 export default function HomeTabs() {
   return (
     <Tab.Navigator
-    initialRouteName="AddVideo"      
+    initialRouteName="Home"      
     tabBarOptions={{
-      showLabel: false,
       keyboardHidesTabBar:true,
-      style: { height: 50, paddingVertical: 5 },
-      activeTintColor: colors.primary,
+      style: {paddingVertical: 5 },
+      activeTintColor: 'red',
       inactiveTintColor:'black'
     }}>
     <Tab.Screen
     name="Home"
       component={Home}
       options={{
-        // tabBarIcon: ({color}) => (
-        //   <AddVideoIcon height={30} width={30} fill={color}/>
-        // ),
+        tabBarIcon: ({color}) => (
+          <Icon name="home" color={color} size={20}/>
+        ),
       }}
     />
     <Tab.Screen
     name="Profile"
       component={Profile}
       options={{
-        // tabBarIcon: ({color}) => (
-        //   <VoteIcon height={30} width={30} fill={color}/>
-        // ),
+        tabBarIcon: ({color}) => (
+          <Icon name='user' color={color} size={20}/>
+        ),
       }}
     />
   </Tab.Navigator>
