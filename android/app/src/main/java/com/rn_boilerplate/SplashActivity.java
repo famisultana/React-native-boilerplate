@@ -1,4 +1,4 @@
-package com.gok; // Change this to your package name.
+package com.rn_boilerplate; // Change this to your package name.
 
 import android.content.Intent;
 import android.os.Bundle;

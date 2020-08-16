@@ -1,4 +1,4 @@
-package com.gok;
+package com.rn_boilerplate;
 
 import com.facebook.react.ReactActivity;
 import org.devio.rn.splashscreen.SplashScreen; 
@@ -19,6 +19,6 @@ public class MainActivity extends ReactActivity {
 
   @Override
   protected String getMainComponentName() {
-    return "GOK";
+    return "RN_App";
   }
 }

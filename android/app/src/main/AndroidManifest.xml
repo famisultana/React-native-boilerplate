@@ -1,5 +1,5 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-  package="com.gok">
+  package="com.rn_boilerplate">
 
     <uses-permission android:name="android.permission.INTERNET" />
 

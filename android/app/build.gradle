@@ -129,7 +129,7 @@ android {
     }
 
     defaultConfig {
-        applicationId "com.gok"
+        applicationId "com.rn_boilerplate"
         minSdkVersion rootProject.ext.minSdkVersion
         targetSdkVersion rootProject.ext.targetSdkVersion
         versionCode 1
