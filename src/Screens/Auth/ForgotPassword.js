@@ -1,10 +1,13 @@
 import React, { Component } from 'react';
 import { Text } from 'react-native';
+import { Wrapper } from '../../Components';
 
 class ForgotPassword extends Component {
     render() {
         return (
-            <Text>ForgotPassword</Text>
+            <Wrapper>
+                <Text>ForgotPassword</Text>
+            </Wrapper>
         );
     }
 }

@@ -1,10 +1,13 @@
 import React, { Component } from 'react';
 import { Text } from 'react-native';
+import { Wrapper } from '../../Components';
 
 class NewPassword extends Component {
     render() {
         return (
-            <Text>NewPassword</Text>
+            <Wrapper>
+                <Text>NewPassword</Text>
+            </Wrapper>
         );
     }
 }
